@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 1125535287}
   - component: {fileID: 1125535286}
   - component: {fileID: 1125535288}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Knight_idle_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2681,8 +2681,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff56d8c8ed4f5fd4f8a38b976181b0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DragWoY: 10
+  WalkForce: 30
+  JumpForce: 200
   state: 0
   anim: {fileID: 1125535283}
+  rdb: {fileID: 1125535286}
 --- !u!1001 &1221388295
 PrefabInstance:
   m_ObjectHideFlags: 0
